@@ -11,6 +11,7 @@ const Header = () => {
     { name: 'Skills', href: '#skills' },
     { name: 'Experience', href: '#experience' },
     { name: 'App Store', href: '#apps' },
+    { name: 'Cv', href: '#cv' },
     { name: 'Contact', href: '#contact' }
   ];
 
