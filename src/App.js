@@ -8,6 +8,8 @@ import Experience from "./components/Experience";
 import AppStore from "./components/AppStore";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+// vercel insights
+import { SpeedInsights } from "@vercel/speed-insights/react";
 
 function App() {
   return (
@@ -20,6 +22,7 @@ function App() {
       <AppStore />
       <Contact />
       <Footer />
+      <SpeedInsights />
     </div>
   );
 }
