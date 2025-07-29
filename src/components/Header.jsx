@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Menu, X, Smartphone, Code } from 'lucide-react';
+import myImage from '../assets/moi2.png';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -27,8 +28,13 @@ const Header = () => {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <div className="flex items-center space-x-2">
-            <div className="bg-lime-400 p-2 rounded-lg">
+            {/* <div className="bg-lime-400 p-2 rounded-lg">
               <Smartphone className="h-6 w-6 text-slate-900" />
+            </div> */}
+            <div 
+              className="bg-lime-400 p-2 rounded-lg h-10 w-10 bg-cover bg-center"
+              style={{backgroundImage: `url(${myImage})`}}
+            >
             </div>
             <div>
               <h1 className="font-bold text-xl text-white">Loick Adjiwanou</h1>

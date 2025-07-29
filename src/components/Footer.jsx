@@ -1,6 +1,7 @@
 import React from 'react';
 import { Github, Linkedin, Mail, Smartphone, ArrowUp } from 'lucide-react';
 import { portfolioData } from '../data/mock';
+import myImage from '../assets/moi2.png';
 
 const Footer = () => {
   const { personal } = portfolioData;
@@ -20,8 +21,13 @@ const Footer = () => {
             {/* Brand Section */}
             <div className="space-y-4">
               <div className="flex items-center space-x-3">
-                <div className="bg-lime-400 p-2 rounded-lg">
+                {/* <div className="bg-lime-400 p-2 rounded-lg">
                   <Smartphone className="h-6 w-6 text-slate-900" />
+                </div> */}
+                <div 
+                  className="bg-lime-400 p-2 rounded-lg h-10 w-10 bg-cover bg-center"
+                  style={{backgroundImage: `url(${myImage})`}}
+                >
                 </div>
                 <div>
                   <h3 className="font-bold text-xl text-white">{personal.name}</h3>
