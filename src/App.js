@@ -6,6 +6,7 @@ import About from "./components/About";
 import Skills from "./components/Skills";
 import Experience from "./components/Experience";
 import AppStore from "./components/AppStore";
+import CV from "./components/CV";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 // vercel insights
@@ -20,6 +21,7 @@ function App() {
       <Skills />
       <Experience />
       <AppStore />
+      <CV />
       <Contact />
       <Footer />
       <SpeedInsights />
