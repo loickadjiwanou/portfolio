@@ -124,7 +124,7 @@ export const portfolioData = {
   apps: [
     {
       id: 1,
-      name: "RightCom Ticketing",
+      name: "RightQ Ticketing",
       category: "Business",
       description:
         "A comprehensive ticketing solution for customer service management with offline capabilities and Bluetooth printing.",
@@ -132,14 +132,18 @@ export const portfolioData = {
         "Enhanced ticketing app with improved functionality for customer service operations. Features include real-time data synchronization, offline mode for uninterrupted service, and integrated Bluetooth printing for instant receipt generation.",
       techStack: [
         "React Native",
+        "Expo",
+        "Kotlin",
+        "Java",
         "Parse-Server",
         "Bluetooth API",
         "Offline Storage",
+        "MQTT",
       ],
       features: [
         "Real-time ticket management",
         "Offline mode with auto-sync",
-        "Bluetooth receipt printing",
+        "Bluetooth ticket printing",
         "Agent dashboard",
         "Customer service tracking",
       ],
@@ -148,29 +152,23 @@ export const portfolioData = {
         "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop",
       ],
       status: "Live",
-      client: "RightCom",
+      client: "RightCom Technologies",
     },
     {
       id: 2,
-      name: "Tourism Benin",
+      name: "Sictecl Tourism Benin",
       category: "Travel",
       description:
-        "Mobile app for rating and discovering tourist sites, hotels, and restaurants in Benin with an intuitive star-based rating system.",
+        "Mobile app for rating and discovering tourist sites, hotels, and restaurants in Benin with an intuitive & strong star and note-based rating system.",
       longDescription:
         "Official tourism app for the Ministry of Tourism of Benin, allowing tourists and locals to discover, rate, and review tourist attractions, accommodations, and dining options across the country.",
-      techStack: [
-        "React Native",
-        "Firebase",
-        "Google Maps API",
-        "Rating System",
-      ],
+      techStack: ["React Native", "Expo", "Kotlin", "Rating System"],
       features: [
         "Tourist site discovery",
-        "Hotel and restaurant listings",
-        "Star-based rating system",
-        "User reviews and photos",
-        "Interactive map integration",
-        "Offline access to saved places",
+        "Hotel and restaurant reviews",
+        "Star & note-based rating system",
+        "Agents reviews and photos",
+        "Offline mode with auto-sync",
       ],
       images: [
         "https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=400&h=300&fit=crop",
@@ -181,7 +179,7 @@ export const portfolioData = {
     },
     {
       id: 3,
-      name: "AgriBiz Manager",
+      name: "AgriBiz",
       category: "Agriculture",
       description:
         "Comprehensive agriculture management solution with farm monitoring, team management, and integrated communication tools.",
@@ -189,10 +187,15 @@ export const portfolioData = {
         "Advanced agricultural management platform designed to help farmers and agricultural businesses monitor their operations, manage teams, track tasks, and maintain effective communication across all farm activities.",
       techStack: [
         "React Native",
+        "Expo",
+        "Kotlin",
+        "FireBase",
         "Node.js",
         "MongoDB",
         "Real-time Chat",
         "Analytics",
+        "Push Notifications",
+        "MQTT",
       ],
       features: [
         "Farm site monitoring",
@@ -202,6 +205,7 @@ export const portfolioData = {
         "Integrated chat system",
         "Progress reporting",
         "Resource management",
+        "Finances management",
       ],
       images: [
         "https://images.unsplash.com/photo-1574943320219-553eb213f72d?w=400&h=300&fit=crop",
@@ -212,7 +216,7 @@ export const portfolioData = {
     },
     {
       id: 4,
-      name: "Agent Dashboard",
+      name: "RightQ Agent Mode",
       category: "Business",
       description:
         "Specialized mobile application for service agents to efficiently manage customer interactions and service requests.",
@@ -220,9 +224,13 @@ export const portfolioData = {
         "Companion app to the RightCom Ticketing system, specifically designed for service agents to handle customer calls, manage tickets, and maintain high service quality standards.",
       techStack: [
         "React Native",
-        "Real-time API",
-        "Push Notifications",
-        "Analytics",
+        "Expo",
+        "Kotlin",
+        "Java",
+        "Parse-Server",
+        "Bluetooth API",
+        "Offline Storage",
+        "MQTT",
       ],
       features: [
         "Customer call management",
@@ -236,11 +244,11 @@ export const portfolioData = {
         "https://images.unsplash.com/photo-1553484771-8ba7ee565bef?w=400&h=300&fit=crop",
       ],
       status: "Live",
-      client: "RightCom",
+      client: "RightCom Technologies",
     },
     {
       id: 5,
-      name: "CyberSec Learning",
+      name: "Spectorly",
       category: "Education",
       description:
         "Interactive e-learning platform focused on cybersecurity training with responsive design and dynamic content delivery.",
@@ -248,7 +256,9 @@ export const portfolioData = {
         "Comprehensive cybersecurity training platform developed during internship at Cyberspector, featuring interactive modules, progress tracking, and adaptive learning paths.",
       techStack: [
         "Vue.js",
-        "Node.js",
+        "Tailwind CSS",
+        "Python",
+        "Django Framework",
         "Progressive Web App",
         "Interactive Content",
       ],
@@ -263,7 +273,7 @@ export const portfolioData = {
         "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=400&h=300&fit=crop",
         "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=400&h=300&fit=crop",
       ],
-      status: "Completed",
+      status: "Live",
       client: "Cyberspector",
     },
     {
@@ -279,6 +289,9 @@ export const portfolioData = {
         "Firebase",
         "Real-time Database",
         "Authentication",
+        "Push Notifications",
+        "Firebase Cloud Storage",
+        "Firebase CLoud Messaging",
       ],
       features: [
         "User authentication",
@@ -287,6 +300,7 @@ export const portfolioData = {
         "Like and comment functionality",
         "Media sharing",
         "Push notifications",
+        "Chat system",
       ],
       images: [
         "https://images.unsplash.com/photo-1611605698335-8b1569810432?w=400&h=300&fit=crop",
@@ -294,6 +308,324 @@ export const portfolioData = {
       ],
       status: "Demo",
       client: "Academic Project",
+    },
+    {
+      id: 7,
+      name: "Hiyvo",
+      category: "Social",
+      description:
+        "Live streaming platform for real-time broadcasting and audience interaction, similar to TikTok Live functionality.",
+      longDescription:
+        "Interactive live streaming application that enables users to broadcast in real-time and engage with audiences through live video streaming. Built with Agora SDK for high-quality video streaming and real-time communication.",
+      techStack: [
+        "React Native",
+        "Expo",
+        "Node.js",
+        "MongoDB",
+        "Agora SDK",
+        "Express",
+        "JWT Authentication",
+        "Real-time Streaming",
+      ],
+      features: [
+        "Live video streaming",
+        "Real-time audience interaction",
+        "User authentication",
+        "Broadcasting controls",
+        "Stream management",
+        "Mobile-optimized streaming",
+      ],
+      images: [
+        "https://images.unsplash.com/photo-1574717024653-61fd2cf4d44d?w=400&h=300&fit=crop",
+        "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=400&h=300&fit=crop",
+      ],
+      status: "Demo",
+      client: "Personal Project",
+    },
+    {
+      id: 8,
+      name: "VocalVault",
+      category: "Productivity",
+      description:
+        "Advanced voice recording application with intuitive interface and comprehensive audio management features.",
+      longDescription:
+        "Professional voice recording tool designed for capturing, organizing, and managing audio recordings with a clean, user-friendly interface and advanced audio processing capabilities.",
+      techStack: [
+        "React Native",
+        "Expo",
+        "Lottie Animations",
+        "AsyncStorage",
+        "Audio API",
+        "React Router",
+      ],
+      features: [
+        "High-quality voice recording",
+        "Audio playback controls",
+        "Recording organization",
+        "Local storage management",
+        "Intuitive user interface",
+        "Audio file sharing",
+      ],
+      images: [
+        "https://images.unsplash.com/photo-1478737270239-2f02b77fc618?w=400&h=300&fit=crop",
+        "https://images.unsplash.com/photo-1590602847861-f357a9332bbc?w=400&h=300&fit=crop",
+      ],
+      status: "Demo",
+      client: "Personal Project",
+    },
+    {
+      id: 9,
+      name: "Revendi",
+      category: "E-commerce",
+      description:
+        "Marketplace application for buying and selling second-hand items with secure transactions and user verification.",
+      longDescription:
+        "Comprehensive e-commerce platform similar to Vinted, enabling users to buy and sell pre-owned items with features like secure payments, user ratings, and item verification systems.",
+      techStack: [
+        "React Native",
+        "Expo",
+        "Node.js",
+        "MongoDB",
+        "Express",
+        "JWT Authentication",
+        "Geolocation",
+        "Image Processing",
+      ],
+      features: [
+        "Item listing and browsing",
+        "Secure user authentication",
+        "In-app messaging",
+        "Location-based search",
+        "User ratings and reviews",
+        "Payment integration ready",
+        "Multi-language support",
+      ],
+      images: [
+        "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=400&h=300&fit=crop",
+        "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=400&h=300&fit=crop",
+      ],
+      status: "Demo",
+      client: "Personal Project",
+    },
+    {
+      id: 10,
+      name: "AI Chat",
+      category: "AI",
+      description:
+        "Intelligent conversational AI application with advanced chat capabilities and intuitive user interface.",
+      longDescription:
+        "Modern AI-powered chat application featuring sophisticated conversation management, haptic feedback, and seamless user experience for AI-human interactions.",
+      techStack: [
+        "React Native",
+        "Expo",
+        "Gifted Chat",
+        "AI Integration",
+        "AsyncStorage",
+        "Lottie Animations",
+        "Haptic Feedback",
+      ],
+      features: [
+        "AI-powered conversations",
+        "Chat history management",
+        "Real-time messaging interface",
+        "Haptic feedback integration",
+        "Toast notifications",
+        "Smooth animations",
+      ],
+      images: [
+        "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=400&h=300&fit=crop",
+        "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=400&h=300&fit=crop",
+      ],
+      status: "Demo",
+      client: "Personal Project",
+    },
+    {
+      id: 11,
+      name: "Fake Polygraph",
+      category: "Entertainment",
+      description:
+        "Entertaining simulation app that mimics polygraph functionality using device sensors for fun lie detection.",
+      longDescription:
+        "Fun and interactive fake polygraph application that uses device sensors to create an entertaining lie detection experience, perfect for party games and social interactions.",
+      techStack: [
+        "React Native",
+        "Expo",
+        "Expo Sensors",
+        "Haptic Feedback",
+        "Lottie Animations",
+        "Audio/Video",
+        "MQTT",
+      ],
+      features: [
+        "Sensor-based detection simulation",
+        "Realistic polygraph interface",
+        "Haptic feedback responses",
+        "Audio/visual effects",
+        "Entertainment mode",
+        "Social sharing features",
+      ],
+      images: [
+        "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=400&h=300&fit=crop",
+        "https://images.unsplash.com/photo-1518709268805-4e9042af2176?w=400&h=300&fit=crop",
+      ],
+      status: "Demo",
+      client: "Personal Project",
+    },
+    {
+      id: 12,
+      name: "Authenticator",
+      category: "Security",
+      description:
+        "Two-factor authentication app similar to Google Authenticator for secure account for two factor verification.",
+      longDescription:
+        "Security-focused authentication application providing two-factor authentication codes for enhanced account security, featuring QR code scanning and time-based token generation.",
+      techStack: [
+        "React Native",
+        "Expo",
+        "Camera API",
+        "QR Code Scanner",
+        "Lottie Animations",
+        "React Router",
+      ],
+      features: [
+        "QR code scanning",
+        "Time-based tokens",
+        "Account management",
+        "Secure code generation",
+        "Backup and recovery",
+        "Dark/light themes",
+      ],
+      images: [
+        "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=400&h=300&fit=crop",
+        "https://images.unsplash.com/photo-1618044733300-9472054094ee?w=400&h=300&fit=crop",
+      ],
+      status: "Prototype",
+      client: "Personal Project",
+    },
+    {
+      id: 13,
+      name: "Digital Wallet",
+      category: "Finance",
+      description:
+        "Comprehensive digital wallet application for payments, transfers, and bill management with modern UI.",
+      longDescription:
+        "Full-featured digital wallet solution offering payment processing, money transfers, bill payments, and financial management tools with an intuitive and secure interface.",
+      techStack: [
+        "React Native",
+        "Expo",
+        "React Native Skia",
+        "Lottie Animations",
+        "Responsive Design",
+        "Modern Keyboard",
+      ],
+      features: [
+        "Money transfers",
+        "Bill payments (electricity, internet)",
+        "Contact management",
+        "Payment summaries",
+        "Withdrawal services",
+        "Secure transactions UI",
+      ],
+      images: [
+        "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=400&h=300&fit=crop",
+        "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=400&h=300&fit=crop",
+      ],
+      status: "Prototype",
+      client: "Personal Project",
+    },
+    {
+      id: 14,
+      name: "Task Management",
+      category: "Productivity",
+      description:
+        "Comprehensive task management system for teams and organizations with advanced project tracking.",
+      longDescription:
+        "Professional task management platform designed for organizational use, featuring team collaboration, project tracking, deadline management, and comprehensive reporting tools.",
+      techStack: [
+        "React Native",
+        "Expo",
+        "Day.js",
+        "Bottom Sheet",
+        "Date Picker",
+        "Vector Icons",
+        "Modal Components",
+      ],
+      features: [
+        "Team task assignment",
+        "Project timeline tracking",
+        "Deadline management",
+        "Progress monitoring",
+        "Team collaboration tools",
+        "Reporting and analytics",
+      ],
+      images: [
+        "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=400&h=300&fit=crop",
+        "https://images.unsplash.com/photo-1553484771-8ba7ee565bef?w=400&h=300&fit=crop",
+      ],
+      status: "Prototype",
+      client: "Personal Project",
+    },
+    {
+      id: 15,
+      name: "BrainBlitz",
+      category: "Education",
+      description:
+        "Interactive quiz game application with multiple categories and competitive gameplay features for educational purposes.",
+      longDescription:
+        "Engaging quiz game platform offering various knowledge categories, competitive scoring, and interactive gameplay designed to challenge and educate users across different subjects.",
+      techStack: [
+        "React Native",
+        "Expo",
+        "Lottie Animations",
+        "AsyncStorage",
+        "Styled Components",
+        "Navigation Stack",
+      ],
+      features: [
+        "Multiple quiz categories",
+        "Competitive scoring system",
+        "Progress tracking",
+        "Interactive animations",
+        "Leaderboards",
+        "Achievement system",
+      ],
+      images: [
+        "https://images.unsplash.com/photo-1606092195730-5d7b9af1efc5?w=400&h=300&fit=crop",
+        "https://images.unsplash.com/photo-1513475382585-d06e58bcb0e0?w=400&h=300&fit=crop",
+      ],
+      status: "Prototype",
+      client: "Personal Project",
+    },
+    {
+      id: 16,
+      name: "NFT Marketplace",
+      category: "Blockchain",
+      description:
+        "Modern NFT marketplace application for browsing, buying, and selling digital collectibles.",
+      longDescription:
+        "Sophisticated NFT marketplace platform featuring digital asset browsing, collection management, and trading capabilities with a modern, intuitive interface designed for crypto enthusiasts.",
+      techStack: [
+        "React Native",
+        "Expo",
+        "Blur Effects",
+        "React Router",
+        "Custom Fonts",
+        "Gesture Handler",
+      ],
+      features: [
+        "NFT collection browsing",
+        "Digital asset marketplace",
+        "Collection management",
+        "Trading interface",
+        "Wallet integration ready",
+        "Modern UI/UX design",
+      ],
+      images: [
+        "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=400&h=300&fit=crop",
+        "https://images.unsplash.com/photo-1618044733300-9472054094ee?w=400&h=300&fit=crop",
+      ],
+      status: "Prototype",
+      client: "Personal Project",
     },
   ],
 
@@ -326,4 +658,11 @@ export const appCategories = [
   "Agriculture",
   "Education",
   "Social",
+  "Productivity",
+  "E-commerce",
+  "AI",
+  "Entertainment",
+  "Security",
+  "Finance",
+  "Blockchain",
 ];

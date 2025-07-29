@@ -46,7 +46,7 @@ const AppStore = () => {
               App <span className="text-lime-400">Store</span>
             </h2>
             <p className="text-xl text-slate-400 max-w-2xl mx-auto">
-              Explore my portfolio of mobile applications across different industries
+              Explore my portfolio of mobile and web applications across different industries
             </p>
           </div>
 
@@ -63,9 +63,11 @@ const AppStore = () => {
                 className="w-full bg-slate-800 border border-slate-700 rounded-full pl-12 pr-4 py-3 text-white placeholder-slate-400 focus:outline-none focus:border-lime-400 transition-colors"
               />
             </div>
+          </div>
 
+          <div className="flex flex-col lg:flex-row gap-6 mb-12">
             {/* Category Filter */}
-            <div className="flex flex-wrap gap-2">
+            <div className="flex flex-wrap gap-2.5">
               {appCategories.map((category) => (
                 <button
                   key={category}
