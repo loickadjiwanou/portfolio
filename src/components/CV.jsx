@@ -4,7 +4,7 @@ import { Download, FileText } from 'lucide-react';
 const CV = () => {
   const handleDownload = () => {
     const link = document.createElement('a');
-    link.href = '/assets/cv.pdf';
+    link.href = '/assets/loick-adjiwanou-cv.pdf';
     link.download = 'loick-adjiwanou-cv.pdf';
     document.body.appendChild(link);
     link.click();
