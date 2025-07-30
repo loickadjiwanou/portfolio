@@ -17,16 +17,16 @@ const CV = () => {
         <div className="max-w-4xl mx-auto text-center">
           {/* Title */}
           <h2 className="text-4xl md:text-5xl font-black text-slate-900 mb-8">
-            Mon{' '}
+            My{' '}
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-lime-400 to-emerald-400">
-              CV
+              Resume
             </span>
           </h2>
 
           {/* Description */}
           <p className="text-xl text-slate-600 mb-12 max-w-2xl mx-auto leading-relaxed">
-            Téléchargez mon CV complet pour découvrir en détail mon parcours professionnel, 
-            mes compétences et mes réalisations.
+            Download my complete resume to discover in detail my professional background, 
+            skills and achievements.
           </p>
 
           {/* CV Preview Card */}
@@ -37,11 +37,11 @@ const CV = () => {
               </div>
               
               <h3 className="text-2xl font-bold text-slate-900 mb-2">
-                Curriculum Vitae
+                Resume
               </h3>
               
               <p className="text-slate-600 mb-6 text-center">
-                Document PDF complet avec toutes mes informations professionnelles
+                Complete PDF document with all my professional information
               </p>
 
               {/* Download Button */}
@@ -50,14 +50,14 @@ const CV = () => {
                 className="bg-lime-400 text-slate-900 px-8 py-4 rounded-full font-bold text-lg hover:bg-lime-300 transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-lime-400/25 flex items-center space-x-3"
               >
                 <Download className="h-5 w-5" />
-                <span>Télécharger CV</span>
+                <span>Download Resume</span>
               </button>
             </div>
           </div>
 
           {/* Additional Info */}
           <div className="text-slate-500 text-sm">
-            <p>Format PDF • Dernière mise à jour : {new Date().toLocaleDateString('fr-FR')}</p>
+            <p>PDF Format • Last updated: {new Date().toLocaleDateString('en-US')}</p>
           </div>
         </div>
       </div>
