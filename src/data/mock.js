@@ -627,6 +627,42 @@ export const portfolioData = {
       status: "Prototype",
       client: "Personal Project",
     },
+    {
+      id: 17,
+      platform: "Backend",
+      name: "E-Commerce Backend API",
+      category: "E-commerce",
+      description:
+        "A full backend project for e-commerce using Node.js, Express and MongoDB - ready to use for any web or mobile e-commerce application.",
+      longDescription:
+        "Complete e-commerce backend solution providing all essential APIs for online shopping applications. Features comprehensive product management, user authentication, order processing, and payment integration endpoints. Built with scalable architecture and ready for production deployment.",
+      techStack: [
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "Mongoose",
+        "JWT Authentication",
+        "bcrypt",
+        "Multer",
+        "CORS",
+        "REST API",
+      ],
+      features: [
+        "User authentication & authorization",
+        "Product catalog management",
+        "Shopping cart functionality",
+        "Order management system",
+        "File upload handling",
+        "Database seeding scripts",
+        "RESTful API architecture",
+      ],
+      images: [
+        "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=300&fit=crop",
+        "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop",
+      ],
+      status: "Live",
+      client: "Open Source",
+    },
   ],
 
   education: [
