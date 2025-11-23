@@ -87,19 +87,19 @@ const Experience = () => {
           {/* Summary Stats */}
           <div className="mt-16 grid md:grid-cols-4 gap-8">
             <div className="bg-slate-900/50 rounded-2xl p-8 border border-slate-700 text-center">
-              <div className="text-3xl font-black text-lime-400 mb-2">2+</div>
+              <div className="text-3xl font-black text-lime-400 mb-2">3+</div>
               <p className="text-slate-300 font-medium">Years Experience</p>
             </div>
             <div className="bg-slate-900/50 rounded-2xl p-8 border border-slate-700 text-center">
-              <div className="text-3xl font-black text-lime-400 mb-2">10+</div>
+              <div className="text-3xl font-black text-lime-400 mb-2">15+</div>
               <p className="text-slate-300 font-medium">Mobile Apps Built</p>
             </div>
             <div className="bg-slate-900/50 rounded-2xl p-8 border border-slate-700 text-center">
-              <div className="text-3xl font-black text-lime-400 mb-2">5+</div>
+              <div className="text-3xl font-black text-lime-400 mb-2">8+</div>
               <p className="text-slate-300 font-medium">Backend & Web Solutions</p>
             </div>
             <div className="bg-slate-900/50 rounded-2xl p-8 border border-slate-700 text-center">
-              <div className="text-3xl font-black text-lime-400 mb-2">4</div>
+              <div className="text-3xl font-black text-lime-400 mb-2">5</div>
               <p className="text-slate-300 font-medium">Different Industries</p>
             </div>
           </div>

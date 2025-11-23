@@ -43,6 +43,21 @@ export const portfolioData = {
     {
       id: 2,
       position: "Mobile Developer - Freelance",
+      company: "Hoxtel Group",
+      location: "Tunis, TUNISIA",
+      period: "October 2025 - November 2025",
+      type: "Freelance",
+      achievements: [
+        "Developed an Android tablet application for managing smart hotel rooms (doors, lights, curtains, etc.).",
+        "Integrated a complete IoT system using MQTT for real-time communication between devices and the application.",
+        "Implemented modern and smooth user interfaces with React Native & Expo, optimized for large-screen displays.",
+        "Developed and integrated native Kotlin modules for specific advanced functionalities.",
+        "Implemented and consumed REST APIs for centralized management of room devices and statuses.",
+      ],
+    },
+    {
+      id: 3,
+      position: "Mobile Developer - Freelance",
       company: "Ministry of Tourism of Benin",
       location: "Cotonou, BENIN",
       period: "June 2025 - July 2025",
@@ -52,7 +67,7 @@ export const portfolioData = {
       ],
     },
     {
-      id: 3,
+      id: 4,
       position: "Mobile Developer - Freelance",
       company: "AgriBiz",
       location: "Cotonou, BENIN",
@@ -66,7 +81,7 @@ export const portfolioData = {
       ],
     },
     {
-      id: 4,
+      id: 5,
       position: "Mobile Engineer (Internship)",
       company: "RightCom",
       location: "Cotonou, BENIN",
@@ -79,7 +94,7 @@ export const portfolioData = {
       ],
     },
     {
-      id: 5,
+      id: 6,
       position: "Frontend Engineer (Internship, Remote)",
       company: "Cyberspector",
       location: "Cotonou, BENIN",
@@ -93,7 +108,7 @@ export const portfolioData = {
       ],
     },
     {
-      id: 6,
+      id: 7,
       position: "Backend Engineer (Internship)",
       company: "RightCom",
       location: "Cotonou, BENIN",
@@ -107,7 +122,7 @@ export const portfolioData = {
       ],
     },
     {
-      id: 7,
+      id: 8,
       position: "Frontend Engineer (Internship)",
       company: "Sobebra Benin",
       location: "Cotonou, BENIN",
@@ -156,6 +171,37 @@ export const portfolioData = {
     },
     {
       id: 2,
+      name: "Hoxia",
+      category: "Hotel industry",
+      description:
+        "Android tablet application for managing smart hotel rooms, enabling real-time control of doors, lights, curtains, and other IoT-enabled devices.",
+      longDescription:
+        "Hoxia is a smart-room management application designed for Android tablets and deployed in a hotel environment. The app provides real-time control of room equipment such as doors, lighting systems, curtains, and more. Built with React Native, Expo, and Kotlin for native modules, it integrates a fully operational IoT infrastructure powered by MQTT for instantaneous communication between the application and connected devices. The system also relies on REST APIs for centralized equipment management, ensuring seamless synchronization across devices and hotel systems. The user interface is optimized for large screens, offering a smooth, intuitive, and responsive experience for hotel staff.",
+      techStack: [
+        "React Native",
+        "Expo",
+        "Kotlin (Native Modules)",
+        "MQTT",
+        "REST API",
+        "Android",
+      ],
+      features: [
+        "Real-time control of smart room devices (doors, lights, curtains, etc.)",
+        "MQTT-based communication for instant device response",
+        "Native Kotlin modules for advanced hardware interaction",
+        "Optimized UI for Android tablet interfaces",
+        "Centralized management through REST APIs",
+        "Smooth and responsive real-time monitoring",
+      ],
+      images: [
+        "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=800&q=80", // chambre d'hôtel moderne (smart room vibe)
+        "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=800&q=80", // interface domotique / smart home controller
+      ],
+      status: "Live",
+      client: "Hoxtel Group",
+    },
+    {
+      id: 3,
       name: "Sictecl Tourism Benin",
       category: "Travel",
       description:
@@ -178,7 +224,7 @@ export const portfolioData = {
       client: "Ministry of Tourism of Benin",
     },
     {
-      id: 3,
+      id: 4,
       name: "AgriBiz",
       category: "Agriculture",
       description:
@@ -215,7 +261,7 @@ export const portfolioData = {
       client: "AgriBiz",
     },
     {
-      id: 4,
+      id: 5,
       name: "RightQ Agent Mode",
       category: "Business",
       description:
@@ -247,7 +293,7 @@ export const portfolioData = {
       client: "RightCom Technologies",
     },
     {
-      id: 5,
+      id: 6,
       name: "Spectorly",
       category: "Education",
       description:
@@ -277,7 +323,7 @@ export const portfolioData = {
       client: "Cyberspector",
     },
     {
-      id: 6,
+      id: 7,
       name: "Twitter Clone",
       category: "Social",
       description:
@@ -310,7 +356,7 @@ export const portfolioData = {
       client: "Academic Project",
     },
     {
-      id: 7,
+      id: 8,
       name: "Hiyvo",
       category: "Social",
       description:
@@ -343,7 +389,7 @@ export const portfolioData = {
       client: "Personal Project",
     },
     {
-      id: 8,
+      id: 9,
       name: "VocalVault",
       category: "Productivity",
       description:
@@ -374,7 +420,7 @@ export const portfolioData = {
       client: "Personal Project",
     },
     {
-      id: 9,
+      id: 10,
       name: "Revendi",
       category: "E-commerce",
       description:
@@ -408,7 +454,7 @@ export const portfolioData = {
       client: "Personal Project",
     },
     {
-      id: 10,
+      id: 11,
       name: "AI Chat",
       category: "AI",
       description:
@@ -440,7 +486,7 @@ export const portfolioData = {
       client: "Personal Project",
     },
     {
-      id: 11,
+      id: 12,
       name: "Fake Polygraph",
       category: "Entertainment",
       description:
@@ -472,7 +518,7 @@ export const portfolioData = {
       client: "Personal Project",
     },
     {
-      id: 12,
+      id: 13,
       name: "Authenticator",
       category: "Security",
       description:
@@ -503,7 +549,7 @@ export const portfolioData = {
       client: "Personal Project",
     },
     {
-      id: 13,
+      id: 14,
       name: "Digital Wallet",
       category: "Finance",
       description:
@@ -534,7 +580,7 @@ export const portfolioData = {
       client: "Personal Project",
     },
     {
-      id: 14,
+      id: 15,
       name: "Task Management",
       category: "Productivity",
       description:
@@ -566,7 +612,7 @@ export const portfolioData = {
       client: "Personal Project",
     },
     {
-      id: 15,
+      id: 16,
       name: "BrainBlitz",
       category: "Education",
       description:
@@ -597,7 +643,7 @@ export const portfolioData = {
       client: "Personal Project",
     },
     {
-      id: 16,
+      id: 17,
       name: "NFT Marketplace",
       category: "Blockchain",
       description:
@@ -628,7 +674,7 @@ export const portfolioData = {
       client: "Personal Project",
     },
     {
-      id: 17,
+      id: 18,
       platform: "Backend",
       name: "E-Commerce Backend API",
       category: "E-commerce",
